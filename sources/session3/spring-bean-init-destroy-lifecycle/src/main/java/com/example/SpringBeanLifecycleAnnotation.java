@@ -9,9 +9,11 @@ public class SpringBeanLifecycleAnnotation {
 
     public static void main(String[] args) {
 
-        ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
         final Member bean = context.getBean(Member.class);
 
         System.out.println(bean);
+
+        context.close();
     }
 }

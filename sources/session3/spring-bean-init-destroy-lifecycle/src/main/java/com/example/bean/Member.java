@@ -1,11 +1,13 @@
 package com.example.bean;
 
+import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 
-public class Member implements InitializingBean {
+public class Member implements InitializingBean, DisposableBean {
 
     private String firstname;
     private String lastname;
@@ -53,5 +55,21 @@ public class Member implements InitializingBean {
     public void initMethod() {
 
         System.out.println("initMethod called");
+    }
+
+    @PreDestroy
+    public void preDestroy() {
+
+        System.out.println("PreDestroy called");
+    }
+
+    private void destroyMethod() {
+
+        System.out.println("destroyMethod called");
+    }
+
+    @Override
+    public void destroy() throws Exception {
+        System.out.println("DisposableBean destroy called");
     }
 }

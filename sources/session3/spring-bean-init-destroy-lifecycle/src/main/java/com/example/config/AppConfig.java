@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan(basePackages = "com.example.bean")
 public class AppConfig {
 
-    @Bean(initMethod = "initMethod")
+    @Bean(initMethod = "initMethod", destroyMethod = "destroyMethod")
     public Member getMember() {
 
         System.out.println("AppConfig Member Bean  called");
