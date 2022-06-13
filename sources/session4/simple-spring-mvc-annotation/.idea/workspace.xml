@@ -10,26 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3192c54c-5e2b-4d04-ac8d-1ba4ce540956" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/config/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/config/WebMvcInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/WelcomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/IWelcomeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/WelcomeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session3/spring-bean-init-destroy-lifecycle/src/main/java/com/example/SpringBeanLifecycleAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../session3/spring-bean-init-destroy-lifecycle/src/main/java/com/example/SpringBeanLifecycleAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session3/spring-bean-init-destroy-lifecycle/src/main/java/com/example/bean/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../session3/spring-bean-init-destroy-lifecycle/src/main/java/com/example/bean/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session3/spring-bean-init-destroy-lifecycle/src/main/java/com/example/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../session3/spring-bean-init-destroy-lifecycle/src/main/java/com/example/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session3/spring-bean-init-destroy-lifecycle/target/classes/com/example/SpringBeanLifecycleAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../session3/spring-bean-init-destroy-lifecycle/target/classes/com/example/SpringBeanLifecycleAnnotation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session3/spring-bean-init-destroy-lifecycle/target/classes/com/example/bean/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../session3/spring-bean-init-destroy-lifecycle/target/classes/com/example/bean/Member.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session3/spring-bean-init-destroy-lifecycle/target/classes/com/example/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../session3/spring-bean-init-destroy-lifecycle/target/classes/com/example/config/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../session3/spring-bean-init-strategy-annotation/src/main/java/com/example/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../session3/spring-bean-init-strategy-annotation/src/main/java/com/example/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +50,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../session3/spring-bean-init-destroy-lifecycle" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -185,7 +166,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652008502700</updated>
-      <workItem from="1652008504128" duration="2546000" />
+      <workItem from="1652008504128" duration="2863000" />
+      <workItem from="1653815225763" duration="582000" />
     </task>
     <servers />
   </component>
