@@ -1,10 +1,10 @@
-package org.example.dao.mapper;
-
-import org.example.domain.Product;
-import org.springframework.jdbc.core.RowMapper;
+package org.example.dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+
+import org.example.domain.Product;
+import org.springframework.jdbc.core.RowMapper;
 
 public class ProductRowMapper implements RowMapper<Product> {
     @Override

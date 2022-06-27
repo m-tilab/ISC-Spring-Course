@@ -1,23 +1,29 @@
 package org.example.domain;
 
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.Size;
 import java.util.Date;
+
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
+
+import org.example.validation.ProductQuantityConstraint;
 
 public class Product {
 
     private long productId;
 
     @NotEmpty
-    @Size(min = 3, max = 200, message = "please enter your name between {min} and {max}")
+    @Size(min = 3, max = 200, message = "Please enter your name between {min} and {max} characters")
     private String name;
 
     @NotEmpty
     private String description;
+
+    @Pattern(regexp = "^PRD-[0-9]{6}", message = "please start with PRD and 6 numbers")
+    private String code;
     private long price;
 
-    @Min(value = 1, message = "please enter valid quantity")
+    @ProductQuantityConstraint(lowest = 5)
     private int quantity;
     private long productCategoryId;
     private long creatorUserId;
@@ -113,5 +119,13 @@ public class Product {
                 ", creatorUserId=" + creatorUserId +
                 ", createDate=" + createDate +
                 '}';
+    }
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
     }
 }

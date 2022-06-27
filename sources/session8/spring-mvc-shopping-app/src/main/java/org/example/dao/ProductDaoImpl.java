@@ -1,7 +1,9 @@
-package org.example.dao.impl;
+package org.example.dao;
 
-import org.example.dao.ProductDao;
-import org.example.dao.mapper.ProductRowMapper;
+import java.util.List;
+
+import javax.sql.DataSource;
+
 import org.example.domain.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSource;
@@ -9,9 +11,6 @@ import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.jdbc.core.namedparam.SqlParameterSource;
 import org.springframework.stereotype.Repository;
-
-import javax.sql.DataSource;
-import java.util.List;
 
 @Repository
 public class ProductDaoImpl implements ProductDao {
