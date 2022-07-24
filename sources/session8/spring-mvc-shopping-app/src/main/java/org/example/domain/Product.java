@@ -15,6 +15,7 @@ public class Product {
     @NotEmpty
     @Size(min = 3, max = 200, message = "Please enter your name between {min} and {max} characters")
     private String name;
+    private CharSequence charSequence;
 
     @NotEmpty
     private String description;
