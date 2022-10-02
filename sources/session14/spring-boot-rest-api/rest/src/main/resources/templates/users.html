@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head id="head">
+    <meta charset="UTF-8">
+    <title>title</title>
+</head>
+<body>
+
+<div class="container">
+
+    <a href="#" id="ajax-btn">Fetch Data</a>
+
+    <table class="table table-bordered table-striped" id="users-table">
+        <thead>
+        <th id="firstname-header">firstname</th>
+        <th id="lastname-header">lastname</th>
+        <th id="username-header">username</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td class="firstname">dummy data</td>
+            <td class="lastname">dummy data</td>
+            <td class="username">dummy data</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <footer id="footer">
+        Footer is here
+    </footer>
+</div>
+
+<script>
+    $("#ajax-btn").click(function () {
+
+        $.ajax({
+            url: "http://localhost:8080/user",
+            type: "GET",
+            beforeSend: function (xhr) {
+                xhr.setRequestHeader("Authorization", "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTY2Mzc1MzgyM30.VY4UUyjUwz4mhhqlEB10MWyYJq_QwaHA1pwDark0NFOD2ISAZy1fxJURjwdQmnQFgd0APawzWGz6b8Oel63KHg");
+            },
+            contentType: "application/json",
+            success: function (result) {
+
+                var data = result.content;
+                var row = "";
+
+                for (i = 0; i < data.length; i++) {
+
+                    row += '<tr>' +
+                        '<td>' + data[i].firstname + '</td>' +
+                        '<td>' + data[i].lastname + '</td>'  +
+                        '<td>' + data[i].username + '</td>' +
+                        '</tr>';
+                }
+
+                console.log(row);
+
+                $("#users-table tbody tr").remove();
+                $("#users-table tbody").html(row);
+            }
+        })
+    })
+</script>
+
+</body>

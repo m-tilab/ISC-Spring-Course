@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fe49ba66-862c-4074-b9c8-061218967f8c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../assets/SOAP WebService Approaches.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assets/WSDL structure.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-rest-api/rest/src/main/java/com/example/controller/WebUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-rest-api/rest/src/main/java/com/example/util/DecoupledLogicSetup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-rest-api/rest/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-rest-api/rest/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-rest-api/rest/src/main/resources/templates/fragments/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-rest-api/rest/src/main/resources/templates/fragments/head.th.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-rest-api/rest/src/main/resources/templates/users.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-rest-api/rest/src/main/resources/templates/users.th.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-simple-soap/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-simple-soap/src/main/java/com/example/springbootsimplesoap/config/WebServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-simple-soap/src/main/java/com/example/springbootsimplesoap/endpoint/HelloWorldWebServiceEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-simple-soap/src/main/resources/wsdl/helloworld.wsdl" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="210MoEILpAQpoPYVlxS82Nj5L1j" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-boot-simple-soap" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\spring-boot-soap-helloworld\src\main\java\com\javainuse" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn compile" />
+      <command value="mvn clean install" />
+      <command value="mvn jaxb2:generate" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringBootSoapHelloworldApplication">
+    <configuration name="SpringBootSoapHelloworldApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-soap-helloworld" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.javainuse.SpringBootSoapHelloworldApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootSoapHelloworldApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-soap-helloworld" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.SpringBootSoapHelloworldApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SpringBootSoapHelloworldApplication" />
+      <item itemvalue="Spring Boot.SpringBootSoapHelloworldApplication (1)" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe49ba66-862c-4074-b9c8-061218967f8c" name="Changes" comment="" />
+      <created>1637073726569</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637073726569</updated>
+      <workItem from="1637073727820" duration="4509000" />
+      <workItem from="1637126791372" duration="2998000" />
+      <workItem from="1637508093805" duration="3293000" />
+      <workItem from="1662882892863" duration="3826000" />
+      <workItem from="1663492361190" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/endpoint/WebServiceEndpoint.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
